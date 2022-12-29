@@ -16,7 +16,7 @@
             <nav>
                 <div>
                     <h1 class="font-black text-5xl px-4 py-4 text-black">
-                        <a href="/">FoodGasm</a>
+                        <a href="#" class=" shadow-2xl shadow-blue-500/50 hover:text-white">FoodGasm</a>
                     </h1>
                 </div>
                 <ul class=" flex flex-row gap-x-10 justify-center items-center flex-wrap relative bottom-14">
@@ -88,42 +88,63 @@
 
         <div class="mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-4">
             <!-- cards go here -->
-            <div class="card bg-white rounded-3xl overflow-hidden shadow-lg relative">
-                <img src="img/stirfry.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
-                <div class="m-4 text-center ">
-                    <!-- cad title -->
-                    <span class="font-bold text-2xl">Stir-fry Spaghetti</span>
-                    <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦3500</p>
+            <div class="relative overflow-hidden">
+                <div class="card bg-white rounded-3xl overflow-hidden shadow-lg relative">
+                    <img src="img/stirfry.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
+                    <div
+                        class="absolute h-full w-full items-center justify-center bg-black/50 flex  -bottom-10  transition-all duration-300 hover:top-10 opacity-0 hover:opacity-100">
+
+                        <button class="bg-black text-white py-2 px-5 ">Add to cart 🛒</button>
+
+                    </div>
+                    <div class="m-4 text-center ">
+                        <!-- cad title -->
+                        <span class="font-bold text-2xl">Stir-fry Spaghetti</span>
+                        <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦3500</p>
+                    </div>
+                    <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
+                        <span>⌛25 mins</span>
+                    </div>
                 </div>
-                <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
-                    <span>25 mins</span>
+            </div>
+            <div class="relative overflow-hidden">
+                <div class="card  bg-white rounded-3xl overflow-hidden shadow-lg relative">
+                    <img src="img/10.JPG" alt="" class="w-full h-32 sm:h-48 object-fill">
+                    <div
+                        class="absolute h-full w-full items-center justify-center bg-black/50 flex  -bottom-10  transition-all duration-300 hover:top-10 opacity-0 hover:opacity-100">
+
+                        <button class="bg-black text-white py-2 px-5 ">Add to cart 🛒</button>
+
+                    </div>
+                    <div class="m-4 text-center">
+                        <!-- cad title -->
+                        <p class="font-bold text-2xl">Chicken Shawarma</p>
+                        <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦2500</p>
+
+                    </div>
+                    <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
+                        <span>⌛25 mins</span>
+                    </div>
                 </div>
             </div>
 
+            <div class="overflow-hidden relative">
+                <div class="card  bg-white rounded-3xl overflow-hidden shadow-lg relative">
+                    <img src="img/burgers.webp" alt="" class="w-full h-32 sm:h-48 object-cover">
+                    <div
+                        class="absolute h-full w-full items-center justify-center bg-black/50 flex  -bottom-10  transition-all duration-300 hover:top-10 opacity-0 hover:opacity-100">
 
-            <div class="card  bg-white rounded-3xl overflow-hidden shadow-lg relative">
-                <img src="img/10.JPG" alt="" class="w-full h-32 sm:h-48 object-fill">
-                <div class="m-4 text-center">
-                    <!-- cad title -->
-                    <p class="font-bold text-2xl">Chicken Shawarma</p>
-                    <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦2500</p>
+                        <button class="bg-black text-white py-2 px-5 ">Add to cart 🛒</button>
 
-                </div>
-                <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
-                    <span>25 mins</span>
-                </div>
-            </div>
-
-
-            <div class="card  bg-white rounded-3xl overflow-hidden shadow-lg relative">
-                <img src="img/burgers.webp" alt="" class="w-full h-32 sm:h-48 object-cover">
-                <div class="m-4 text-center">
-                    <!-- cad title -->
-                    <span class="font-bold text-2xl">name</span>
-                    <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦price</p>
-                </div>
-                <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
-                    <span>25 mins</span>
+                    </div>
+                    <div class="m-4 text-center">
+                        <!-- cad title -->
+                        <span class="font-bold text-2xl">name</span>
+                        <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦price</p>
+                    </div>
+                    <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
+                        <span>⌛25 mins</span>
+                    </div>
                 </div>
             </div>
 
@@ -146,44 +167,69 @@
         <div class="mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-4">
 
             <!-- cards go here -->
+            <div class="relative overflow-hidden">
+                <div class="card bg-white rounded-3xl overflow-hidden shadow-lg relative">
+                    <img src="img/jollof3.jpeg" alt="" class="w-full h-32 sm:h-48 object-cover">
+                    <div
+                        class="absolute h-full w-full items-center justify-center bg-black/50 flex  -bottom-10  transition-all duration-300 hover:top-10 opacity-0 hover:opacity-100">
 
-            <div class="card bg-white rounded-3xl overflow-hidden shadow-lg relative">
-                <img src="img/jollof3.jpeg" alt="" class="w-full h-32 sm:h-48 object-cover">
-                <div class="m-4 text-center ">
-                    <!-- cad title -->
-                    <span class="font-bold text-2xl">Stir-fry Spaghetti</span>
-                    <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦3500</p>
-                </div>
-                <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
-                    <span>25 mins</span>
+                        <button class="bg-black text-white py-2 px-5 ">Add to cart 🛒</button>
+
+                    </div>
+                    <div class="m-4 text-center ">
+                        <!-- cad title -->
+                        <span class="font-bold text-2xl">Stir-fry Spaghetti</span>
+                        <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦3500</p>
+                    </div>
+                    <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
+                        <span>⌛25 mins</span>
+                    </div>
                 </div>
             </div>
 
 
-            <div class="card bg-white rounded-3xl overflow-hidden shadow-lg relative">
-                <img src="img/8.JPG" alt="" class="w-full h-32 sm:h-48 object-cover">
-                <div class="m-4 text-center ">
-                    <!-- cad title -->
-                    <span class="font-bold text-2xl">Stir-fry Spaghetti</span>
-                    <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦3500</p>
-                </div>
-                <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
-                    <span>25 mins</span>
+            <div class="overflow-hidden relative">
+                <div class="card bg-white rounded-3xl overflow-hidden shadow-lg relative">
+                    <img src="img/8.JPG" alt="" class="w-full h-32 sm:h-48 object-cover">
+                    <div
+                        class="absolute h-full w-full items-center justify-center bg-black/50 flex  -bottom-10  transition-all duration-300 hover:top-10 opacity-0 hover:opacity-100">
+
+                        <button class="bg-black text-white py-2 px-5 ">Add to cart 🛒</button>
+
+                    </div>
+                    <div class="m-4 text-center ">
+                        <!-- cad title -->
+                        <span class="font-bold text-2xl">Stir-fry Spaghetti</span>
+                        <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦3500</p>
+                    </div>
+                    <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
+                        <span>⌛25 mins</span>
+                    </div>
                 </div>
             </div>
 
+            <div class="relative overflow-hidden">
+                <div class="relative overflow-hidden">
+                    <div class="card bg-white rounded-3xl overflow-hidden shadow-lg relative">
+                        <img src="img/pancake.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
+                        <div
+                            class="absolute h-full w-full items-center justify-center bg-black/50 flex  -bottom-10  transition-all duration-300 hover:top-10 opacity-0 hover:opacity-100">
 
-            <div class="card bg-white rounded-3xl overflow-hidden shadow-lg relative">
-                <img src="img/pancake.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
-                <div class="m-4 text-center ">
-                    <!-- cad title -->
-                    <span class="font-bold text-2xl">Stir-fry Spaghetti</span>
-                    <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦3500</p>
-                </div>
-                <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
-                    <span>25 mins</span>
+                            <button class="bg-black text-white py-2 px-5 ">Add to cart 🛒</button>
+
+                        </div>
+                        <div class="m-4 text-center ">
+                            <!-- cad title -->
+                            <span class="font-bold text-2xl">Stir-fry Spaghetti</span>
+                            <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦3500</p>
+                        </div>
+                        <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
+                            <span>⌛25 mins</span>
+                        </div>
+                    </div>
                 </div>
             </div>
+
 
         </div>
     </div>
@@ -192,6 +238,91 @@
             class="px-6 py-2 text-lg border-solid rounded-3xl bg-gray-400 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-neutral-50 shadow-lg shadow-blue-500/50">Load
             More </button>
     </div>
+
+
+
+    <footer>
+        <div class="p-10 bg-gray-800 text-gray-200">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+                    <div class="mb-5 ">
+                        <h4 class="text-2xl pb-4">Company</h4>
+                        <p class="text-gray-500 ">
+                            Lorem ipsum, dolor sit amet consectetur <br>
+                            adipisicing elit. Rerum neque totam <br>
+                            voluptates distinctio recusandae minus! <br> <br>
+                            <strong>phone:</strong> +234 8090709804 <br>
+                            <strong>Email:</strong> habibullahamza@gmail.com <br>
+                        </p>
+                    </div>
+                    <div class="mb-5 ">
+                        <h4 class="text-2xl pb-4">links</h4>
+                        <ul class="text-gray-500">
+                            <li class="pb-4"><i class="fa fa-chevron-right text-yellow-500"></i> <a href="#"
+                                    class="hover:text-yellow-500">Home</a> </li>
+                            <li class="pb-4"><i class="fa fa-chevron-right text-yellow-500"></i><a href="#"
+                                    class="hover:text-yellow-500">About</a> </li>
+                            <li class="pb-4"><i class="fa fa-chevron-right text-yellow-500"></i><a href="#"
+                                    class="hover:text-yellow-500">Services</a> </li>
+                            <li class="pb-4"><i class="fa fa-chevron-right text-yellow-500"></i><a href="#"
+                                    class="hover:text-yellow-500">Terms of services</a> </li>
+                            <li class="pb-4"><i class="fa fa-chevron-right text-yellow-500"></i><a href="#"
+                                    class="hover:text-yellow-500">Privacy poliicy</a> </li>
+                        </ul>
+                    </div>
+                    <div class="mb-5 ">
+                        <h4 class="text-2xl pb-4">Our Services</h4>
+                        <ul class="text-gray-500">
+                            <li class="pb-4"><i class="fa fa-chevron-right text-yellow-500"></i><a href="#"
+                                    class="hover:text-yellow-500"> Lorem, ipsum dolor.</a></li>
+                            <li class="pb-4"><i class="fa fa-chevron-right text-yellow-500"></i><a href="#"
+                                    class="hover:text-yellow-500">Lorem, ipsum dolor.</a> </li>
+                            <li class="pb-4"><i class="fa fa-chevron-right text-yellow-500"></i><a href="#"
+                                    class="hover:text-yellow-500"> Lorem, ipsum dolor.</a></li>
+                            <li class="pb-4"><i class="fa fa-chevron-right text-yellow-500"></i><a href="#"
+                                    class="hover:text-yellow-500"> Lorem, ipsum dolor.</a></li>
+                            <li class="pb-4"><i class="fa fa-chevron-right text-yellow-500"></i><a href="#"
+                                    class="hover:text-yellow-500"> Lorem, ipsum dolor.</a></li>
+                        </ul>
+                    </div>
+                    <div class="mb-5 ">
+
+                        <h4 class="text-2xl pb-4">Join our Newsletter</h4>
+                        <p class="text-gray-500 pb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+                            maiores.</p>
+
+                        <form class="flex flex-row flex-wrap ">
+                            <input type="text" class="text-gray-500 w-2/3 p-2 focus:border-yellow-500"
+                                placeholder="email@example.com">
+                            <button class="p-2 w-1/3 bg-yellow-500 text-white hover:bg-yellow-600 ">Subscribe</button>
+                        </form>
+
+                        <div class="mt-8 text-center">
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"><i
+                                    class="fa fa-twitter"></i></a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"><i
+                                    class="fa fa-instagram"></i></a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"><i
+                                    class="fa fa-facebook"></i></a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"><i
+                                    class="fa fa-skype"></i></a>
+                            <a href="#"
+                                class="w-10 h-10 rounded-full bg-yellow-500 hover:bg-yellow-600 mx-1 inline-block pt-1"><i
+                                    class="fa fa-linkedln"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
 
 
 
