@@ -11,29 +11,33 @@
 </head>
 
 <body>
-    <div class="bg-gradient-to-br from-purple-500 to-cyan-500 via-pink-500 w-full h-screen ">
+    <div class="bg-gradient-to-br from-purple-500 to-cyan-500 via-pink-500 w-full h-screen" id="HOME">
         <div>
 
             <nav>
                 <div>
-                    <h1 class="font-black text-5xl px-4 py-4 text-black">
-                        <a href="#" class=" shadow-2xl shadow-blue-500/50 hover:text-white">FoodGasm</a>
+                    <h1 class="font-black text-3xl md:text-3xl lg:text-5xl px-4 py-4 text-black ">
+                        <a href=" #" class="shadow-2xl shadow-blue-500/50 hover:text-white">FoodGasm</a>
                     </h1>
                 </div>
-                <ul class=" flex flex-row gap-x-10 justify-center items-center flex-wrap relative bottom-14">
+                <ul
+                    class=" mt-2 md:flex md:flex-row md:gap-x-10 md:justify-center md:items-center md:flex-wrap md:relative md:bottom-14 ">
                     <li>
-                        <a href="#">
-                            <span class="font-bold text-3xl text-slate-50">Home</span>
+                        <a href="#HOME">
+                            <span
+                                class=" font-semibold text-2xl pb-4 md:font-bold md:text-3xl text-slate-50 hover:text-black">Home</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <span class="font-bold text-3xl text-slate-50">About</span>
+                        <a href="#MENU">
+                            <span
+                                class=" font-semibold text-2xl pb-4 md:font-bold md:text-3xl text-slate-50 hover:text-black">Menu</span>
                         </a>
                     </li>
                     <li>
-                        <a href=" #">
-                            <span class="font-bold text-3xl text-slate-50">Contact</span>
+                        <a href="#CONTACT">
+                            <span
+                                class=" font-semibold text-2xl pb-4 md:font-bold md:text-3xl text-slate-50 hover:text-black">Contact</span>
                         </a>
                     </li>
                 </ul>
@@ -41,18 +45,21 @@
         </div>
         <main>
 
-            <div class="flex justify-end gap-x-6 relative items-baseline bottom-24">
+            <div
+                class="  block mt-6 gap-x-6 relative md:items-end md:flex md:justify-end md:bottom-24 md:mt-0 md:gap-x-4">
                 <a href="#"
-                    class="px-6 py-2 text-lg border-solid rounded-3xl bg-purple-700 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-green-50 shadow-lg shadow-blue-500/50 ">Log
+                    class="px-6 py-2 md:px-2 md:py-2 lg:px-8 lg:py-2 text-lg border-solid rounded-3xl bg-purple-700 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-green-50 shadow-lg shadow-blue-500/50 ">Log
+
                     in</a>
                 <a href="#"
-                    class="lg:px-6 py-2 text-lg border-solid rounded-3xl bg-purple-700 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-green-50 shadow-lg shadow-blue-500/50">Sign
+                    class="px-6 py-2 md:px-2 md:py-2 lg:px-8 lg:py-2 text-lg border-solid rounded-3xl bg-purple-700 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-green-50 shadow-lg shadow-blue-500/50">Sign
                     up</a>
             </div>
             <header>
-                <div class="container columns-2 mt-20 ">
+                <div class="container block lg:columns-2 mt-20 ">
                     <div class="mt-20">
-                        <h2 class="text-black font-black text-6xl text-center font-serif italic  ">
+                        <h2
+                            class="text-black font-black text-4xl md:text-5xl lg:text-6xl text-center font-serif italic  ">
                             WELCOME TO
                             <br>
                             FoodGasm
@@ -62,29 +69,25 @@
                             you the
                             best meals <br>with high quality at affordable prices</h3>
                     </div>
-                    <div class="text-center mt-5 ">
-                        <button type="button"
-                            class="px-6 py-2 text-lg border-solid rounded-3xl bg-purple-700 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-neutral-50 shadow-lg shadow-blue-500/50">Order
-                            now ➡️</button>
-                        <button type="button"
-                            class="px-6 py-2 text-lg border-solid rounded-3xl bg-purple-700 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-neutral-50 shadow-lg shadow-blue-500/50">Book
-                            a Table 📃
-                        </button>
-                    </div>
 
-                    <div class="bg-contain">
+                    <div class="bg-cover">
                         <img src="img/kitchen1.jpg" alt="" class="w-full h-full object-cover">
                     </div>
-
+                </div>
+                <div class=" mt-16 text-center md:text-center lg:text-left lg:ml-28 lg:gap-x-20 ">
+                    <button type="button"
+                        class="px-6 py-2 text-lg border-solid rounded-3xl bg-purple-700 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-neutral-50 shadow-lg shadow-blue-500/50 ">Order
+                        now ➡️</button>
+                    <button type="button"
+                        class="px-6 py-2 text-lg border-solid rounded-3xl bg-purple-700 text-black font-bold hover:bg-zinc-100 font-sans focus:ring focus:ring-neutral-50 shadow-lg shadow-blue-500/50">Book
+                        a Table 📃
+                    </button>
                 </div>
             </header>
-            <div class="mt-28 text-center">
-                <h1 class="text-5xl italic "> RECIPES</h1>
-            </div>
         </main>
     </div>
 
-    <div class="bg-gray-200">
+    <div class="bg-gray-200" id="MENU">
         <h4 class="font-bold mt-4 mb-6 pb-2 border-b border-gray-100 text-2xl"> Latest Recipes</h4>
 
         <div class="mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mx-4">
@@ -101,7 +104,8 @@
                     <div class="m-4 text-center ">
                         <!-- cad title -->
                         <span class="font-bold text-2xl">Stir-fry Spaghetti</span>
-                        <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦3500</p>
+                        <p class="font-bold text-slate-500 text-3xl mt-4 bg-zinc-200 p-1 rounded-lg"> <ion-icon
+                                name="logo-usd" class="text-3xl"></ion-icon>20</p>
                     </div>
                     <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
                         <span>⌛25 mins</span>
@@ -120,7 +124,8 @@
                     <div class="m-4 text-center">
                         <!-- cad title -->
                         <p class="font-bold text-2xl">Chicken Shawarma</p>
-                        <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦2500</p>
+                        <p class="font-bold text-slate-500 text-3xl mt-4 bg-zinc-200 p-1 rounded-lg"> <ion-icon
+                                name="logo-usd" class="text-3xl"></ion-icon>15</p>
 
                     </div>
                     <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
@@ -140,11 +145,12 @@
                     </div>
                     <div class="m-4 text-center">
                         <!-- cad title -->
-                        <span class="font-bold text-2xl">3in1 Chicken Burger</span>
-                        <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦8500</p>
+                        <span class="font-bold text-2xl">3-in-1 Chicken Burger</span>
+                        <p class="font-bold text-slate-500 text-3xl mt-4 bg-zinc-200 p-1 rounded-lg"> <ion-icon
+                                name="logo-usd" class="text-3xl"></ion-icon>28</p>
                     </div>
                     <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
-                        <span>⌛25 mins</span>
+                        <span>⌛30 mins</span>
                     </div>
                 </div>
             </div>
@@ -180,10 +186,11 @@
                     <div class="m-4 text-center ">
                         <!-- cad title -->
                         <span class="font-bold text-2xl">Jollof-rice & Chicken</span>
-                        <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦3000</p>
+                        <p class="font-bold text-slate-500 text-3xl mt-4 bg-zinc-200 p-1 rounded-lg"> <ion-icon
+                                name="logo-usd" class="text-3xl"></ion-icon>20</p>
                     </div>
                     <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
-                        <span>⌛25 mins</span>
+                        <span>⌛30 mins</span>
                     </div>
                 </div>
             </div>
@@ -201,10 +208,12 @@
                     <div class="m-4 text-center ">
                         <!-- cad title -->
                         <span class="font-bold text-2xl">Beef Burger,Fries & Soda </span>
-                        <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦5000</p>
+                        <p class="font-bold text-slate-500 text-3xl mt-4 bg-zinc-200 p-1 rounded-lg">
+                            <ion-icon name="logo-usd" class="text-3xl"></ion-icon>30
+                        </p>
                     </div>
                     <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
-                        <span>⌛25 mins</span>
+                        <span>⌛40 mins</span>
                     </div>
                 </div>
             </div>
@@ -222,11 +231,12 @@
                         <div class="m-4 text-center ">
                             <!-- cad title -->
                             <span class="font-bold text-2xl">Pancakes</span>
-                            <p class="font-bold text-slate-500 text-xl mt-4 bg-zinc-200 p-1 rounded-lg">₦4000 ~ ₦10000
+                            <p class="font-bold text-slate-500 text-3xl mt-4 bg-zinc-200 p-1 rounded-lg"> <ion-icon
+                                    name="logo-usd" class="text-3xl"></ion-icon>25
                             </p>
                         </div>
                         <div class="uppercase font-bold rounded-full bg-gray-500 p-2 absolute  top-0 ml-2 mt-2">
-                            <span>⌛25 mins</span>
+                            <span>⌛45 mins</span>
                         </div>
                     </div>
                 </div>
@@ -243,8 +253,8 @@
 
 
 
-    <footer>
-        <div class="p-10 bg-gray-800 text-gray-200">
+    <footer id="CONTACT">
+        <div class="p-10 bg-gray-700 text-gray-200">
             <div class="max-w-7xl mx-auto">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
                     <div class="mb-5 ">
@@ -329,6 +339,25 @@
                     </div>
 
                 </div>
+
+            </div>
+        </div>
+
+        <div class="p-10 bg-gray-900 text-gray-200">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+
+                    <div class="mb-5 pb-4 text-xl ">
+                        <p>Copyright © 2022. | FoodGasm <br> By Hamza Habibullah </p>
+                    </div>
+
+                    <div class="mb-4 text-xl">
+                        <ion-icon name="time-outline" class="text-5xl border-2 bg-yellow-600"></ion-icon>
+                        <p>Opening Hours</p>
+                        <p>Mon-Sat (8.00 - 6.00)</p>
+                    </div>
+                </div>
+
 
             </div>
         </div>
